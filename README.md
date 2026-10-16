@@ -103,4 +103,4 @@ Archive SHA-256:
 
 ## LOTROInterface
 
-[Equipment Plugin on LOTROInterface](https://www.lotrointerface.com/downloads/fileinfo.php?id=1332). The first submission is awaiting site administrator approval; this page may be unavailable until approval. Download the current player release from GitHub above in the meantime.
+[Equipment Plugin on LOTROInterface](https://www.lotrointerface.com/downloads/fileinfo.php?id=1332). The plugin page includes screenshots, a description and the player download. The same version is available on GitHub.
