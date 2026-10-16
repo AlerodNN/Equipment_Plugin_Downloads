@@ -1,96 +1,96 @@
-# Equipment Plugin для The Lord of the Rings Online
+[Russian](README.ru.md)
 
-[English](README.en.md)
+# Equipment Plugin for The Lord of the Rings Online
 
-Equipment Plugin помогает подобрать экипировку и эссенции под выбранные характеристики, сравнить результат с надетыми вещами и сохранить несколько вариантов сборки для своего персонажа.
+Equipment Plugin helps you choose equipment and essences for your selected stats, compare a proposed build with your confirmed worn gear, and save several builds for your character.
 
-**[Скачать Equipment Plugin 0.2.23](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases/latest/download/EquipmentPlugin-0.2.23.zip)** · [Страница последней версии](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases/latest)
+**[Download Equipment Plugin 0.2.23](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases/latest/download/EquipmentPlugin-0.2.23.zip)** · [Latest version](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases/latest)
 
-## Возможности
+## Features
 
-- Подбор предметов, совместимых эссенций и добродетелей с учётом класса, уровня, выбранных характеристик и ограничений.
-- Сравнение исходной экипировки и предложенной сборки: итоговые значения, прибавки и потери характеристик.
-- Настройка желаемых минимумов, максимумов и важности характеристик; замки для обязательных ограничений и ячеек экипировки.
-- Выбор комплектов доспехов и бижутерии, количества их частей и доступных уровней предметов.
-- Окно Effects для учёта выбранных баффов, еды, свитков и других поддерживаемых эффектов. Доступные варианты подстраиваются под уровень персонажа.
-- Ручная замена отдельных вещей и эссенций, подсказки с характеристиками и сравнением, исключение недоступных уровней предметов из подбора.
-- До пяти независимых профилей персонажа и до десяти сохранённых вариантов в каждом профиле.
-- Generation History — сравнение исходных вещей с текущим предложением, включая ваши ручные изменения.
-- Изменяемые размеры окон и сохранение настроек между запусками.
+- Equipment, compatible essence and virtue selection with class, level, selected stats and restrictions taken into account.
+- Equipped versus planned totals, with gains and losses for individual stats.
+- Minimum and Maximum targets, Importance weights, mandatory-bound locks and equipment-slot locks.
+- Armour and jewellery set requirements, piece counts and available item levels.
+- Effects selection for supported buffs, food, scrolls and other bonuses, with available choices adapted to character level.
+- Manual item and essence replacement, detailed comparison tooltips and exclusion of unavailable item levels.
+- Up to five independent character profiles and ten saved builds per profile.
+- Generation History comparing original equipment with the current proposal, including manual edits.
+- Resizable windows and settings retained between sessions.
 
-Плагин предлагает сборку. Получать и надевать предметы в игре нужно самостоятельно. Интерфейс плагина использует английские названия; подробные руководства доступны на русском и английском.
+The plugin proposes a build; you obtain and equip items in the game yourself. The interface uses English labels. Detailed Russian and English manuals are included.
 
-## Установка
+## Installation
 
-1. Скачайте **EquipmentPlugin-0.2.23.zip** по ссылке выше или из раздела **Assets** последней версии. Выбирайте архив с названием плагина.
-2. Найдите папку `The Lord of the Rings Online` в своих **Документах**. Создайте в ней папку `Plugins`, если её ещё нет.
-3. Распакуйте папку `EquipmentPlugin` из архива в `Plugins`.
-4. Проверьте расположение файла: `Документы\The Lord of the Rings Online\Plugins\EquipmentPlugin\EquipmentPlugin.plugin`. Лишней вложенной папки `EquipmentPlugin` быть не должно.
-5. Войдите в игру и загрузите **Equipment Plugin** через менеджер плагинов LOTRO. Затем нажмите на значок плагина, чтобы открыть окно и начать настройку.
+1. Download **EquipmentPlugin-0.2.23.zip** using the link above or the **Assets** section of the latest version. Choose the archive named after the plugin.
+2. Find `The Lord of the Rings Online` in your **Documents** folder. Create its `Plugins` folder if necessary.
+3. Extract the archive's `EquipmentPlugin` folder into `Plugins`.
+4. Check this path: `Documents\The Lord of the Rings Online\Plugins\EquipmentPlugin\EquipmentPlugin.plugin`. Avoid an extra nested `EquipmentPlugin` folder.
+5. Load **Equipment Plugin** through LOTRO's plugin manager, then click its icon to open it and begin setup.
 
-Если Документы перенесены в OneDrive или другое расположение, используйте именно ту папку Документов, в которой игра хранит свои настройки. Дополнительные плагины и библиотеки устанавливать не требуется.
+If Documents has been moved to OneDrive or another location, use the Documents folder where LOTRO actually stores its settings. No additional plugins or libraries need to be installed.
 
-## Первый запуск
+## First-time setup
 
-1. **Наденьте исходный комплект.** Подготовьте вещи и легендарные предметы, с которыми хотите сравнивать будущую сборку. Если временный эффект скоро закончится, дождитесь его окончания перед подтверждением исходных данных.
-2. **Пройдите начальную настройку.** Подтвердите Glory Rank, фактические ранги добродетелей и активный набор. Нулевой ранг тоже нужно подтвердить; добродетель с нулевым рангом нельзя выбрать активной.
-3. **Подтвердите предметы и эссенции по игровым подсказкам.** `Item Level` — уровень предмета, а `Minimum Level` — требуемый уровень персонажа: это разные значения. Для пустого сокета надетой вещи выберите пустую ячейку. Если запрашивается активная еда или свиток, укажите реально использованный вариант.
-4. **Назовите профиль** и проверьте исходные характеристики в основном окне. Для другой специализации или другого исходного комплекта можно создать отдельный профиль кнопкой `+`.
-5. Откройте **Generation Settings**, отметьте нужные характеристики и настройте цели. При необходимости выберите комплекты, добродетели и исключения.
-6. Откройте **Effects** и выберите поддерживаемые эффекты, с которыми хотите рассчитывать сборку.
-7. Нажмите **Generate**. Изучите столбцы `Equipped`, `Planned`, `Change`, окно **Generation History** и пояснение результата под основным окном.
-8. Сохраните понравившийся вариант кнопкой **Save**. Можно менять настройки, пробовать другие варианты и возвращаться к сохранённым сборкам.
+1. **Equip your starting gear**, including the legendary items you intend to use. Wait for an expiring temporary effect to end before confirming the starting data.
+2. **Complete initial confirmation.** Confirm Glory Rank, actual virtue ranks and the active set. Confirm zero ranks too; rank-zero virtues cannot be active.
+3. **Read each item's in-game tooltip.** Item Level describes the item; Minimum Level is its required character level. Confirm supported item levels, base variants and installed essences. Choose the empty option for an empty socket on worn gear. If an active food or scroll needs confirmation, select the one actually used.
+4. **Name the profile** and check the starting stats. Use `+` for a separate specialisation or starting build.
+5. Open **Generation Settings**, check your important stats and set targets, weights and any required sets, virtues or exclusions.
+6. Open **Effects** and select supported bonuses you want included in the calculation.
+7. Press **Generate** and inspect **Equipped**, **Planned**, **Change**, **Generation History** and the explanation beneath the main window.
+8. Press **Save** for a build you want to keep. You can try other settings and return to saved builds later.
 
-## Основные настройки
+## Main settings
 
-| Настройка | Для чего нужна |
+| Setting | Purpose |
 | --- | --- |
-| Отметка характеристики | Включает её в цели подбора. Неотмеченная характеристика может измениться вместе с вещью, но не получает самостоятельного приоритета. |
-| Minimum | Желаемая нижняя граница. Закрытый замок делает её обязательной. |
-| Maximum | Цель полезного роста. Закрытый замок задаёт верхнюю границу с описанными в руководстве узкими исключениями для улучшения уровней вещей и эссенций. Без введённого Maximum используются соответствующие игровые пределы; у характеристик без капа автоматического потолка нет. |
-| Importance | Вес выбранной характеристики. Чем он выше, тем больше её вклад в общую оценку сборки; это не обещание повысить все характеристики одновременно. |
-| Замок ячейки экипировки | Сохраняет предмет и эссенции этой ячейки при подборе. |
-| Armor Sets / Jewellery Sets | Требование использовать выбранный комплект, его уровень и количество частей. |
-| Temporary Blacklist | Исключение отмеченных предметов и уровней из последующего подбора. |
+| Checked stat | Includes that stat in the common objective. Unchecked stats may change with an item but have no independent priority. |
+| Minimum | Desired floor. Closing its lock makes it mandatory. |
+| Maximum | Useful-growth target. Closing its lock enforces an upper bound, with narrow item/essence level-upgrade exceptions explained in the manuals. Without an entered Maximum, the appropriate game references apply; uncapped stats have no automatic ceiling. |
+| Importance | A checked stat's contribution to the overall score. Higher weight does not promise that every stat increases together. |
+| Equipment-slot lock | Keeps that slot's item and essences during generation. |
+| Armor Sets / Jewellery Sets | Require the selected set, item level and piece count. |
+| Temporary Blacklist | Exclude checked items and levels from subsequent searches. |
 
-Начните с небольшого числа действительно важных характеристик. Если требования несовместимы, проверьте обязательные минимумы, максимумы, замки, комплекты и исключения. При отсутствии улучшения текущая сборка сохраняется; ближайшие проверенные значения в пояснении не применяются автоматически. Поиск не гарантирует перебор всех возможных сочетаний.
+Start with the stats that really matter to your build. If no suitable improvement is found, review mandatory bounds, slot locks, set requirements and exclusions. The current proposal remains; the nearest checked values in the explanation are not applied automatically. The search does not guarantee that every possible combination has been checked.
 
-Выбранные **Effects** учитываются в итоговых характеристиках, целях и ограничениях. Реально действующий на персонаже эффект и желаемый эффект для расчёта могут требовать разных подтверждений — следуйте подсказкам плагина.
+Selected **Effects** participate in final totals, targets and limits. An effect actually active on your character and an effect selected for the proposed calculation can require separate confirmation; follow the plugin's prompts.
 
-## Ручные изменения, добродетели и сохранения
+## Manual edits, virtues and saved builds
 
-- **Левый клик по вещи** открывает ручной выбор замены в предложенной сборке. **Правый клик** открывает доступные действия с предметом и эссенциями.
-- **Generation History** показывает разницу между подтверждённым исходным комплектом и текущим предложением. Ручные изменения дополняют эту разницу; возврат исходной вещи убирает только соответствующее изменение.
-- **Initial Update**, слева в разделе Virtues, подтверждает исходные активные добродетели. Они обновляются для всех сохранённых вариантов текущего профиля; выбранный вариант остаётся открытым.
-- **Update Generation**, справа, подтверждает добродетели предложенной сборки только для выбранного сохранённого варианта. Без выбранного сохранения создаётся текущее предложение. Эти подтверждения сохраняются сразу, без дополнительного Save.
-- После изменения активных добродетелей нужно выбрать одну из этих двух кнопок. До подтверждения закрытие настроек недоступно. **Refresh** не меняет подтверждённые наборы добродетелей.
-- **All ranks: 100** — отдельная симуляция для предлагаемой сборки, а не изменение заработанных рангов. **Restore actual ranks** возвращает фактические ранги.
-- **Save** сохраняет новый вариант сборки. Обычное редактирование других вещей или настроек само по себе не перезаписывает сохранённый вариант.
-- **Restore Initial** убирает текущее предложение и возвращает отображение подтверждённой исходной экипировки, сохраняя настройки подбора.
-- После настоящей замены вещей в игре нажмите **Refresh** и завершите необходимые подтверждения, чтобы обновить исходную экипировку для сравнения.
+- **Left-click an item** to choose a manual replacement in the proposal. **Right-click** for available item and essence actions.
+- **Generation History** shows the net difference between confirmed original equipment and the current proposal. Manual changes add to it; restoring an original item removes only its corresponding difference.
+- **Initial Update**, on the left in Virtues, confirms the original active virtues for all saved builds in the current profile while keeping the selected build open.
+- **Update Generation**, on the right, confirms proposed virtues only in the selected saved build. Without a selected saved build, it creates a working proposal. These confirmations save immediately; no separate Save is needed.
+- Changes to the active virtue selection require one of these confirmations before closing settings. **Refresh** preserves both confirmed virtue sets.
+- **All ranks: 100** is a proposal-only simulation. **Restore actual ranks** restores earned ranks.
+- **Save** creates another saved build. Ordinary edits to other gear or settings do not automatically overwrite a saved build.
+- **Restore Initial** clears the proposal and shows confirmed original equipment while keeping search settings.
+- After actually changing your equipped items in LOTRO, use **Refresh** and finish the required confirmations to update the comparison baseline.
 
-С уровня 45 предназначенные для легендарных предметов ячейки исключены из подбора, даже если там временно надета обычная вещь. Перед запуском Generate наденьте Main Hand и при необходимости нажмите Refresh. Подробные правила оружия и классовых предметов приведены в руководствах.
+From level 45, designated legendary slots are excluded from selection even if an ordinary item is temporarily worn there. Equip Main Hand before Generate and use Refresh when needed. See the manuals for class-specific weapon and item rules.
 
-## Полные руководства на русском и английском
+## Complete Russian and English manuals
 
-В каждом архиве находятся два руководства:
+Every download includes:
 
-- **Русский:** `EquipmentPlugin/ReadmeRU.html`.
 - **English:** `EquipmentPlugin/ReadmeEN.html`.
+- **Russian:** `EquipmentPlugin/ReadmeRU.html`.
 
-Откройте нужный файл обычным браузером после распаковки — интернет для чтения не нужен. В руководствах есть пошаговый пример первого билда, объяснения минимумов, максимумов, капов и весов, правила эссенций и оружия, эффекты, добродетели, профили, сохранения и обновление исходной экипировки. Это подробная справка к версии из архива.
+Open either file in a web browser after extracting the archive. No internet connection is required. The manuals cover a first-build walkthrough, bounds, caps and weights, essences and weapons, Effects, virtues, profiles, saved builds and updating the equipped baseline. They describe the version included in that archive.
 
-## Обновление и помощь
+## Updating and getting help
 
-Выгрузите плагин перед заменой его файлов или закройте игру. Распакуйте папку `EquipmentPlugin` новой версии в тот же каталог `Plugins` с заменой файлов и загрузите плагин снова. **Не удаляйте папку `PluginData`**: в ней находятся сохранения. Руководства описывают также команду перезагрузки и действия при проблемах с загрузкой.
+Unload the plugin or close the game before replacing files. Extract the new version's `EquipmentPlugin` folder into the same `Plugins` directory, replace existing files and load the plugin again. **Keep `PluginData`**, which contains saved settings. The manuals also explain reloading and recovery from loading problems.
 
-Если нужна помощь, укажите версию плагина, класс и уровень персонажа, ожидаемый результат и шаги воспроизведения. Перед публикацией снимков или диагностических файлов проверьте, нет ли в них личных данных. Подпись `Unknown` у источника предмета означает, что способ получения не подтверждён; это не гарантия доступности предмета на текущем сервере.
+When asking for help, include the plugin version, character class and level, expected result and reproduction steps. Check screenshots and diagnostics for personal information before posting them. An item's **Unknown** source means its acquisition method is unconfirmed; it does not guarantee current server availability.
 
-## Текущая версия
+## Current version
 
-**0.2.23** · [Скачать ZIP](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases/latest/download/EquipmentPlugin-0.2.23.zip)
+**0.2.23** · [Download ZIP](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases/latest/download/EquipmentPlugin-0.2.23.zip)
 
-SHA-256 архива:
+Archive SHA-256:
 
 ```text
 b175c1ce5b8b7bb1a4318c6a1abb719916b12cad4ea5b0ab0d2624628c4c26aa
