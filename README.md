@@ -100,3 +100,7 @@ Archive SHA-256:
 ## Discord community
 
 [Join Equipment Plugin on Discord](https://discord.gg/dwEYvA3FWp) for an introduction, downloads and release notes, FAQ, complete English/Russian manuals and discussions. The same address is available in Generation Settings → Info.
+
+## LOTROInterface
+
+[Equipment Plugin on LOTROInterface](https://www.lotrointerface.com/downloads/fileinfo.php?id=1332). The first submission is awaiting site administrator approval; this page may be unavailable until approval. Download the current player release from GitHub above in the meantime.

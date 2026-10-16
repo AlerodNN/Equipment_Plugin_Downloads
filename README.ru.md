@@ -100,3 +100,7 @@ SHA-256 архива:
 ## Сообщество Discord
 
 [Equipment Plugin в Discord](https://discord.gg/dwEYvA3FWp): знакомство с плагином, загрузки и изменения, FAQ, руководства RU/EN и обсуждения. Ссылка также указана в Generation Settings → Info.
+
+## LOTROInterface
+
+[Страница Equipment Plugin на LOTROInterface](https://www.lotrointerface.com/downloads/fileinfo.php?id=1332). Первая публикация ожидает одобрения администратора сайта; до одобрения страница может быть недоступна. Пока скачивайте актуальную игровую версию с GitHub по ссылке выше.
