@@ -4,7 +4,7 @@
 
 Equipment Plugin helps you choose equipment and essences for your selected stats, compare a proposed build with your confirmed worn gear, and save several builds for your character.
 
-**[Download Equipment Plugin 0.2.23](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases/latest/download/EquipmentPlugin-0.2.23.zip)** · [Latest version](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases/latest)
+**[Download Equipment Plugin 0.2.24](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases/latest/download/EquipmentPlugin-0.2.24.zip)** · [Latest version](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases/latest)
 
 ## Features
 
@@ -22,7 +22,7 @@ The plugin proposes a build; you obtain and equip items in the game yourself. Th
 
 ## Installation
 
-1. Download **EquipmentPlugin-0.2.23.zip** using the link above or the **Assets** section of the latest version. Choose the archive named after the plugin.
+1. Download **EquipmentPlugin-0.2.24.zip** using the link above or the **Assets** section of the latest version. Choose the archive named after the plugin.
 2. Find `The Lord of the Rings Online` in your **Documents** folder. Create its `Plugins` folder if necessary.
 3. Extract the archive's `EquipmentPlugin` folder into `Plugins`.
 4. Check this path: `Documents\The Lord of the Rings Online\Plugins\EquipmentPlugin\EquipmentPlugin.plugin`. Avoid an extra nested `EquipmentPlugin` folder.
@@ -88,10 +88,15 @@ When asking for help, include the plugin version, character class and level, exp
 
 ## Current version
 
-**0.2.23** · [Download ZIP](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases/latest/download/EquipmentPlugin-0.2.23.zip)
+**0.2.24** · [Download ZIP](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases/latest/download/EquipmentPlugin-0.2.24.zip)
 
 Archive SHA-256:
 
 ```text
-b175c1ce5b8b7bb1a4318c6a1abb719916b12cad4ea5b0ab0d2624628c4c26aa
+7b3571c9f85d4ee95e3a63a6dd0010206490b9bcc49de05317f2741512a60cc4
 ```
+
+
+## Discord community
+
+[Join Equipment Plugin on Discord](https://discord.gg/dwEYvA3FWp) for an introduction, downloads and release notes, FAQ, complete English/Russian manuals and discussions. The same address is available in Generation Settings → Info.

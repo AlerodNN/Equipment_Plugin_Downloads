@@ -4,7 +4,7 @@
 
 Equipment Plugin помогает подобрать экипировку и эссенции под выбранные характеристики, сравнить результат с надетыми вещами и сохранить несколько вариантов сборки для своего персонажа.
 
-**[Скачать Equipment Plugin 0.2.23](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases/latest/download/EquipmentPlugin-0.2.23.zip)** · [Страница последней версии](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases/latest)
+**[Скачать Equipment Plugin 0.2.24](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases/latest/download/EquipmentPlugin-0.2.24.zip)** · [Страница последней версии](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases/latest)
 
 ## Возможности
 
@@ -22,7 +22,7 @@ Equipment Plugin помогает подобрать экипировку и э�
 
 ## Установка
 
-1. Скачайте **EquipmentPlugin-0.2.23.zip** по ссылке выше или из раздела **Assets** последней версии. Выбирайте архив с названием плагина.
+1. Скачайте **EquipmentPlugin-0.2.24.zip** по ссылке выше или из раздела **Assets** последней версии. Выбирайте архив с названием плагина.
 2. Найдите папку `The Lord of the Rings Online` в своих **Документах**. Создайте в ней папку `Plugins`, если её ещё нет.
 3. Распакуйте папку `EquipmentPlugin` из архива в `Plugins`.
 4. Проверьте расположение файла: `Документы\The Lord of the Rings Online\Plugins\EquipmentPlugin\EquipmentPlugin.plugin`. Лишней вложенной папки `EquipmentPlugin` быть не должно.
@@ -88,10 +88,15 @@ Equipment Plugin помогает подобрать экипировку и э�
 
 ## Текущая версия
 
-**0.2.23** · [Скачать ZIP](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases/latest/download/EquipmentPlugin-0.2.23.zip)
+**0.2.24** · [Скачать ZIP](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases/latest/download/EquipmentPlugin-0.2.24.zip)
 
 SHA-256 архива:
 
 ```text
-b175c1ce5b8b7bb1a4318c6a1abb719916b12cad4ea5b0ab0d2624628c4c26aa
+7b3571c9f85d4ee95e3a63a6dd0010206490b9bcc49de05317f2741512a60cc4
 ```
+
+
+## Сообщество Discord
+
+[Equipment Plugin в Discord](https://discord.gg/dwEYvA3FWp): знакомство с плагином, загрузки и изменения, FAQ, руководства RU/EN и обсуждения. Ссылка также указана в Generation Settings → Info.
