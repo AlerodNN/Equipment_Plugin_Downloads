@@ -4,7 +4,7 @@
 
 Equipment Plugin помогает подобрать экипировку и эссенции под выбранные характеристики, сравнить результат с надетыми вещами и сохранить несколько вариантов сборки для своего персонажа.
 
-**[Скачать Equipment Plugin 0.2.28](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases/latest/download/EquipmentPlugin-0.2.28.zip)** · [Страница последней версии](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases/latest)
+**[Скачать Equipment Plugin 0.2.28](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)**
 
 ## Возможности
 
@@ -90,7 +90,7 @@ Equipment Plugin помогает подобрать экипировку и э�
 
 ## Текущая версия
 
-**0.2.28** · [Скачать ZIP](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases/latest/download/EquipmentPlugin-0.2.28.zip)
+**0.2.28** · [Загрузки и изменения](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)
 
 SHA-256 архива:
 

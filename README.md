@@ -4,7 +4,7 @@
 
 Equipment Plugin helps you choose equipment and essences for your selected stats, compare a proposed build with your confirmed worn gear, and save several builds for your character.
 
-**[Download Equipment Plugin 0.2.28](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases/latest/download/EquipmentPlugin-0.2.28.zip)** · [Latest version](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases/latest)
+**[Download Equipment Plugin 0.2.28](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)**
 
 ## Features
 
@@ -90,7 +90,7 @@ When asking for help, include the plugin version, character class and level, exp
 
 ## Current version
 
-**0.2.28** · [Download ZIP](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases/latest/download/EquipmentPlugin-0.2.28.zip)
+**0.2.28** · [Downloads and release notes](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)
 
 Archive SHA-256:
 
