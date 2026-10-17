@@ -4,7 +4,7 @@
 
 Equipment Plugin helps you choose equipment and essences for your selected stats, compare a proposed build with your confirmed worn gear, and save several builds for your character.
 
-**[Download Equipment Plugin 0.2.24](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases/latest/download/EquipmentPlugin-0.2.24.zip)** · [Latest version](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases/latest)
+**[Download Equipment Plugin 0.2.28](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases/latest/download/EquipmentPlugin-0.2.28.zip)** · [Latest version](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases/latest)
 
 ## Features
 
@@ -22,7 +22,7 @@ The plugin proposes a build; you obtain and equip items in the game yourself. Th
 
 ## Installation
 
-1. Download **EquipmentPlugin-0.2.24.zip** using the link above or the **Assets** section of the latest version. Choose the archive named after the plugin.
+1. Download **EquipmentPlugin-0.2.28.zip** using the link above or the **Assets** section of the latest version. Choose the archive named after the plugin.
 2. Find `The Lord of the Rings Online` in your **Documents** folder. Create its `Plugins` folder if necessary.
 3. Extract the archive's `EquipmentPlugin` folder into `Plugins`.
 4. Check this path: `Documents\The Lord of the Rings Online\Plugins\EquipmentPlugin\EquipmentPlugin.plugin`. Avoid an extra nested `EquipmentPlugin` folder.
@@ -59,15 +59,17 @@ Selected **Effects** participate in final totals, targets and limits. An effect 
 
 ## Manual edits, virtues and saved builds
 
-- **Left-click an item** to choose a manual replacement in the proposal. **Right-click** for available item and essence actions.
-- **Generation History** shows the net difference between confirmed original equipment and the current proposal. Manual changes add to it; restoring an original item removes only its corresponding difference.
-- **Initial Update**, on the left in Virtues, confirms the original active virtues for all saved builds in the current profile while keeping the selected build open.
-- **Update Generation**, on the right, confirms proposed virtues only in the selected saved build. Without a selected saved build, it creates a working proposal. These confirmations save immediately; no separate Save is needed.
-- Changes to the active virtue selection require one of these confirmations before closing settings. **Refresh** preserves both confirmed virtue sets.
-- **All ranks: 100** is a proposal-only simulation. **Restore actual ranks** restores earned ranks.
-- **Save** creates another saved build. Ordinary edits to other gear or settings do not automatically overwrite a saved build.
-- **Restore Initial** clears the proposal and shows confirmed original equipment while keeping search settings.
-- After actually changing your equipped items in LOTRO, use **Refresh** and finish the required confirmations to update the comparison baseline.
+- **Left-click an item** for a manual replacement; **right-click** for item and essence actions. Manual item/essence edits update only the selected saved build.
+- **Generation History** shows the net difference from confirmed original equipment. Manual edits add to it; returning an original item removes its difference.
+- In **Generation Settings → Virtues**, choose **Initial** for the original set or **Generation** for the proposal. Five icons appear above the two mode buttons.
+- **Initial Update** on the left confirms the common original set for saved builds in this profile, keeping the selected saved proposal open and recalculating its comparison.
+- **Update Generation** on the right confirms only this proposal's virtues. With no proposal, select up to five virtues in the empty Generation set and confirm to create a manual proposal.
+- Confirm changed active sets with the matching button. Close and mode switching stay blocked until confirmation or reverting the checkmarks.
+- Virtue locks work in **both modes**. Locked virtues must stay in the next generated result; locking alone does not change the current saved proposal. **All ranks: 100** is Generation-only simulation; **Restore actual ranks** returns earned ranks.
+- **Generate** can run directly from a saved build. An applied new result shows **Saved builds / Initial** and leaves the saved copy available. **Save** creates a new copy, numbered1–10 by current list position; deleting a copy compacts automatic numbers.
+- Targets, weights, sets, maximum essence level and the blacklist affect future searches; saved gear stays intact.
+- The lower **Restore Initial** button restores original gear, virtues and Initial checkmarks while keeping settings and saved copies. The dropdown lists saved builds only.
+- **Refresh** works from saved builds: confirm changed worn gear to recalculate differences while retaining the proposed recipe. Original virtue/rank and character-level changes are reflected in comparisons.
 
 From level 45, designated legendary slots are excluded from selection even if an ordinary item is temporarily worn there. Equip Main Hand before Generate and use Refresh when needed. See the manuals for class-specific weapon and item rules.
 
@@ -88,12 +90,12 @@ When asking for help, include the plugin version, character class and level, exp
 
 ## Current version
 
-**0.2.24** · [Download ZIP](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases/latest/download/EquipmentPlugin-0.2.24.zip)
+**0.2.28** · [Download ZIP](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases/latest/download/EquipmentPlugin-0.2.28.zip)
 
 Archive SHA-256:
 
 ```text
-7b3571c9f85d4ee95e3a63a6dd0010206490b9bcc49de05317f2741512a60cc4
+d2940284693847cab787a06fc6541b168d166ce85d6c76e5988ae788d629c1d9
 ```
 
 
