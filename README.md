@@ -2,19 +2,9 @@
 
 # Equipment Plugin for The Lord of the Rings Online
 
-> You can use the plugin on characters below level 160, but the accuracy of its data and build results at those levels is not guaranteed. Testing and support focus on level 160.
-
-
 Equipment Plugin helps you choose equipment and essences for your selected stats, compare a proposed build with your confirmed worn gear, and save several builds for your character.
 
-**[Download Equipment Plugin 0.2.31](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)**
-
-## What is new in 0.2.31
-
-- Corrected supported item levels and level-160 gear rating rounding.
-- Kept the plugin icon beneath plugin windows.
-- Removed redundant search and virtue comparisons while preserving candidates and mandatory bounds.
-- Updated diagnostics and both offline manuals.
+**[Download Equipment Plugin 0.2.28](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)**
 
 ## Features
 
@@ -32,7 +22,7 @@ The plugin proposes a build; you obtain and equip items in the game yourself. Th
 
 ## Installation
 
-1. Download **EquipmentPlugin-0.2.31.zip** using the link above or the **Assets** section of the latest version. Choose the archive named after the plugin.
+1. Download **EquipmentPlugin-0.2.28.zip** using the link above or the **Assets** section of the latest version. Choose the archive named after the plugin.
 2. Find `The Lord of the Rings Online` in your **Documents** folder. Create its `Plugins` folder if necessary.
 3. Extract the archive's `EquipmentPlugin` folder into `Plugins`.
 4. Check this path: `Documents\The Lord of the Rings Online\Plugins\EquipmentPlugin\EquipmentPlugin.plugin`. Avoid an extra nested `EquipmentPlugin` folder.
@@ -100,7 +90,7 @@ When asking for help, include the plugin version, character class and level, exp
 
 ## Current version
 
-**0.2.31** · [Downloads and release notes](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)
+**0.2.28** · [Downloads and release notes](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)
 
 Archive SHA-256:
 
