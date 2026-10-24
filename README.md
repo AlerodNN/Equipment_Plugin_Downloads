@@ -109,4 +109,4 @@ b8eac8a984df4b188f7bdb4e46c64749886739c96fd1686d3b7759c5ad37c84e
 
 ## LOTROInterface
 
-[Equipment Plugin on LOTROInterface](https://www.lotrointerface.com/downloads/fileinfo.php?id=1332). The plugin page includes screenshots, a description and the player download. The same version is available on GitHub.
+[Equipment Plugin on LOTROInterface](https://www.lotrointerface.com/downloads/fileinfo.php?id=1332). The plugin page includes screenshots, a description and the player download. New uploads may await site moderation; GitHub provides the latest player build while approval is pending.
