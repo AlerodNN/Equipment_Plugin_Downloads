@@ -6,7 +6,7 @@ Equipment Plugin helps you choose equipment and essences for your selected stats
 
 **You can use the plugin on characters below level 160, but the accuracy of its data and build results at those levels is not guaranteed. Testing and support focus on level 160.**
 
-**[Download Equipment Plugin 0.2.36](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)**
+**[Download Equipment Plugin 0.2.37](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)**
 
 ## Features
 
@@ -24,7 +24,7 @@ The plugin proposes a build; you obtain and equip items in the game yourself. Th
 
 ## Installation
 
-1. Download **EquipmentPlugin-0.2.36.zip** using the link above or the **Assets** section of the latest version. Choose the archive named after the plugin.
+1. Download **EquipmentPlugin-0.2.37.zip** using the link above or the **Assets** section of the latest version. Choose the archive named after the plugin.
 2. Find `The Lord of the Rings Online` in your **Documents** folder. Create its `Plugins` folder if necessary.
 3. Extract the archive's `EquipmentPlugin` folder into `Plugins`.
 4. Check this path: `Documents\The Lord of the Rings Online\Plugins\EquipmentPlugin\EquipmentPlugin.plugin`. Avoid an extra nested `EquipmentPlugin` folder.
@@ -92,14 +92,17 @@ Unload the plugin or close the game before replacing files. Extract the new vers
 
 When asking for help, include the plugin version, character class and level, expected result and reproduction steps. Check screenshots and diagnostics for personal information before posting them. An item's **Unknown** source means its acquisition method is unconfirmed; it does not guarantee current server availability.
 
+
+If Refresh offers **Review data**, confirm the actually worn Item Levels, installed essences and active virtues it asks about. Use **Keep confirmed data** only when those values did not change, for example after changing legendary traceries or buffs. Saved proposed items remain intact; comparisons use the newly confirmed original.
+
 ## Current version
 
-**0.2.36** · [Downloads and release notes](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)
+**0.2.37** · [Downloads and release notes](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)
 
 Archive SHA-256:
 
 ```text
-b8eac8a984df4b188f7bdb4e46c64749886739c96fd1686d3b7759c5ad37c84e
+7bfcdc748e52e0172c1b8eab48ebde85f487f250a2ebaee94f44200b74921164
 ```
 
 
