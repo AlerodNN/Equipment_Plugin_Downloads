@@ -110,7 +110,7 @@ SHA-256 архива:
 
 ## LOTROInterface
 
-[Страница Equipment Plugin на LOTROInterface](https://www.lotrointerface.com/downloads/fileinfo.php?id=1332). На странице плагина размещены скриншоты, описание и скачивание игровой версии. Та же версия доступна на GitHub.
+[Страница Equipment Plugin на LOTROInterface](https://www.lotrointerface.com/downloads/fileinfo.php?id=1332). На странице плагина размещены скриншоты, описание и скачивание игровой версии. Новые обновления могут ожидать модерации сайта; пока идёт проверка, последняя игровая сборка доступна на GitHub.
 
 
 ## Уточнения настроек и обновления исходных данных
