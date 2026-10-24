@@ -4,14 +4,16 @@
 
 Equipment Plugin helps you choose equipment and essences for your selected stats, compare a proposed build with your confirmed worn gear, and save several builds for your character.
 
-**[Download Equipment Plugin 0.2.28](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)**
+**You can use the plugin on characters below level 160, but the accuracy of its data and build results at those levels is not guaranteed. Testing and support focus on level 160.**
+
+**[Download Equipment Plugin 0.2.36](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)**
 
 ## Features
 
 - Equipment, compatible essence and virtue selection with class, level, selected stats and restrictions taken into account.
 - Equipped versus planned totals, with gains and losses for individual stats.
 - Minimum and Maximum targets, Importance weights, mandatory-bound locks and equipment-slot locks.
-- Armour and jewellery set requirements, piece counts and available item levels.
+- Armour and jewellery set requirements, exact piece counts, a common maximum Item Level and individual Part Levels caps.
 - Effects selection for supported buffs, food, scrolls and other bonuses, with available choices adapted to character level.
 - Manual item and essence replacement, detailed comparison tooltips and exclusion of unavailable item levels.
 - Up to five independent character profiles and ten saved builds per profile.
@@ -22,7 +24,7 @@ The plugin proposes a build; you obtain and equip items in the game yourself. Th
 
 ## Installation
 
-1. Download **EquipmentPlugin-0.2.28.zip** using the link above or the **Assets** section of the latest version. Choose the archive named after the plugin.
+1. Download **EquipmentPlugin-0.2.36.zip** using the link above or the **Assets** section of the latest version. Choose the archive named after the plugin.
 2. Find `The Lord of the Rings Online` in your **Documents** folder. Create its `Plugins` folder if necessary.
 3. Extract the archive's `EquipmentPlugin` folder into `Plugins`.
 4. Check this path: `Documents\The Lord of the Rings Online\Plugins\EquipmentPlugin\EquipmentPlugin.plugin`. Avoid an extra nested `EquipmentPlugin` folder.
@@ -50,10 +52,12 @@ If Documents has been moved to OneDrive or another location, use the Documents f
 | Maximum | Useful-growth target. Closing its lock enforces an upper bound, with narrow item/essence level-upgrade exceptions explained in the manuals. Without an entered Maximum, the appropriate game references apply; uncapped stats have no automatic ceiling. |
 | Importance | A checked stat's contribution to the overall score. Higher weight does not promise that every stat increases together. |
 | Equipment-slot lock | Keeps that slot's item and essences during generation. |
-| Armor Sets / Jewellery Sets | Require the selected set, item level and piece count. |
+| Armor Sets / Jewellery Sets | Require the selected set and piece count. Its Item Level is a common maximum; Part Levels adds a maximum per member. Eligible unblocked levels below both caps remain available. |
 | Temporary Blacklist | Exclude checked items and levels from subsequent searches. |
 
 Start with the stats that really matter to your build. If no suitable improvement is found, review mandatory bounds, slot locks, set requirements and exclusions. The current proposal remains; the nearest checked values in the explanation are not applied automatically. The search does not guarantee that every possible combination has been checked.
+
+After a failed search, one last closest recipe is remembered only during this plugin session in the same profile. On the next Generate it is recalculated and checked against current rules, so relaxing a target can recover the previously reported combination. It is never applied automatically after failure; changes to availability or other constraints can make it invalid. The manuals explain Preparing, Main Gear, Refining and Additional Gear phases.
 
 Selected **Effects** participate in final totals, targets and limits. An effect actually active on your character and an effect selected for the proposed calculation can require separate confirmation; follow the plugin's prompts.
 
@@ -69,7 +73,7 @@ Selected **Effects** participate in final totals, targets and limits. An effect 
 - **Generate** can run directly from a saved build. An applied new result shows **Saved builds / Initial** and leaves the saved copy available. **Save** creates a new copy, numbered1–10 by current list position; deleting a copy compacts automatic numbers.
 - Targets, weights, sets, maximum essence level and the blacklist affect future searches; saved gear stays intact.
 - The lower **Restore Initial** button restores original gear, virtues and Initial checkmarks while keeping settings and saved copies. The dropdown lists saved builds only.
-- **Refresh** works from saved builds: confirm changed worn gear to recalculate differences while retaining the proposed recipe. Original virtue/rank and character-level changes are reflected in comparisons.
+- **Refresh** works from saved builds: confirm changed worn gear to recalculate differences while retaining the proposed recipe. Original virtue/rank and character-level changes are reflected in comparisons. A same-name item upgraded to another Item Level must be corrected manually with **Edit equipped Item Level**, without relying on Refresh; confirm its installed essences separately if it has sockets. For legendary-item/tracery changes that only alter total stats, use Refresh.
 
 From level 45, designated legendary slots are excluded from selection even if an ordinary item is temporarily worn there. Equip Main Hand before Generate and use Refresh when needed. See the manuals for class-specific weapon and item rules.
 
@@ -90,12 +94,12 @@ When asking for help, include the plugin version, character class and level, exp
 
 ## Current version
 
-**0.2.28** · [Downloads and release notes](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)
+**0.2.36** · [Downloads and release notes](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)
 
 Archive SHA-256:
 
 ```text
-d2940284693847cab787a06fc6541b168d166ce85d6c76e5988ae788d629c1d9
+b8eac8a984df4b188f7bdb4e46c64749886739c96fd1686d3b7759c5ad37c84e
 ```
 
 
