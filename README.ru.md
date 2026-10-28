@@ -6,7 +6,9 @@ Equipment Plugin помогает подобрать экипировку и э�
 
 **Плагин можно использовать персонажами ниже 160-го уровня, однако корректность данных и результатов подбора для этих уровней не гарантируется. Основная проверка и поддержка сосредоточены на 160-м уровне.**
 
-**[Скачать Equipment Plugin 0.2.37](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)**
+**[Скачать Equipment Plugin 0.2.42](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)**
+
+**Обновлено для Update 50: The Wolves of Mordor («Волки Мордора»).** Если у вас уже подтверждено исходное состояние или есть сохранённые сборки, после улучшения/перековки легендарных предметов нажмите **Refresh**, чтобы обновить характеристики персонажа и сравнения сохранённых сборок.
 
 ## Возможности
 
@@ -24,7 +26,7 @@ Equipment Plugin помогает подобрать экипировку и э�
 
 ## Установка
 
-1. Скачайте **EquipmentPlugin-0.2.37.zip** по ссылке выше или из раздела **Assets** последней версии. Выбирайте архив с названием плагина.
+1. Скачайте **EquipmentPlugin-0.2.42.zip** по ссылке выше или из раздела **Assets** последней версии. Выбирайте архив с названием плагина.
 2. Найдите папку `The Lord of the Rings Online` в своих **Документах**. Создайте в ней папку `Plugins`, если её ещё нет.
 3. Распакуйте папку `EquipmentPlugin` из архива в `Plugins`.
 4. Проверьте расположение файла: `Документы\The Lord of the Rings Online\Plugins\EquipmentPlugin\EquipmentPlugin.plugin`. Лишней вложенной папки `EquipmentPlugin` быть не должно.
@@ -95,7 +97,7 @@ Equipment Plugin помогает подобрать экипировку и э�
 
 ## Текущая версия
 
-**0.2.37** · [Загрузки и изменения](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)
+**0.2.42** · [Загрузки и изменения](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)
 
 SHA-256 архива:
 
