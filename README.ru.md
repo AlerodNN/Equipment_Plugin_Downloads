@@ -102,7 +102,7 @@ Equipment Plugin помогает подобрать экипировку и э�
 SHA-256 архива:
 
 ```text
-7bfcdc748e52e0172c1b8eab48ebde85f487f250a2ebaee94f44200b74921164
+b1d97e15be5b26c992b6d91f54fcb9b90f7185ba129e42ec50a502f1987229de
 ```
 
 
