@@ -6,11 +6,14 @@ Equipment Plugin helps you choose equipment and essences for your selected stats
 
 **You can use the plugin on characters below level 160, but the accuracy of its data and build results at those levels is not guaranteed. Testing and support focus on level 160.**
 
-**[Download Equipment Plugin 0.2.42](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)**
+**[Download Equipment Plugin 0.2.45](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)**
 
-**Updated for Update 50: The Wolves of Mordor.** If you already have a confirmed initial setup or saved builds, click **Refresh** after upgrading/reforging your Legendary Items to update character stats and saved-build comparisons.
+**Updated for Update 50.1: The Wolves of Mordor.** If you already have a confirmed initial setup or saved builds, click **Refresh** after upgrading/reforging your Legendary Items to update character stats and saved-build comparisons.
 
 ## Features
+
+Known quest rewards include acquisition **Info**. One-time reward choices are respected. Class-item upgrades preserve verified special bonuses; Mariner drums require Drum Use, which a Minstrel can teach. Survival Instinct sockets may remain empty for your own choice.
+
 
 - Equipment, compatible essence and virtue selection with class, level, selected stats and restrictions taken into account.
 - Equipped versus planned totals, with gains and losses for individual stats.
@@ -26,7 +29,7 @@ The plugin proposes a build; you obtain and equip items in the game yourself. Th
 
 ## Installation
 
-1. Download **EquipmentPlugin-0.2.42.zip** using the link above or the **Assets** section of the latest version. Choose the archive named after the plugin.
+1. Download **EquipmentPlugin-0.2.45.zip** using the link above or the **Assets** section of the latest version. Choose the archive named after the plugin.
 2. Find `The Lord of the Rings Online` in your **Documents** folder. Create its `Plugins` folder if necessary.
 3. Extract the archive's `EquipmentPlugin` folder into `Plugins`.
 4. Check this path: `Documents\The Lord of the Rings Online\Plugins\EquipmentPlugin\EquipmentPlugin.plugin`. Avoid an extra nested `EquipmentPlugin` folder.
@@ -99,12 +102,12 @@ If Refresh offers **Review data**, confirm the actually worn Item Levels, instal
 
 ## Current version
 
-**0.2.42** · [Downloads and release notes](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)
+**0.2.45** · [Downloads and release notes](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)
 
 Archive SHA-256:
 
 ```text
-b1d97e15be5b26c992b6d91f54fcb9b90f7185ba129e42ec50a502f1987229de
+143c500d9fd5b72260d1128f740e05e04e4c89762035e838ed039e12d8fc8fc8
 ```
 
 
