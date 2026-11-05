@@ -6,7 +6,7 @@ Equipment Plugin helps you choose equipment and essences for your selected stats
 
 **You can use the plugin on characters below level 160, but the accuracy of its data and build results at those levels is not guaranteed. Testing and support focus on level 160.**
 
-**[Download Equipment Plugin 0.2.50](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)**
+**[Download Equipment Plugin 0.2.52](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)**
 
 **Updated for Update 50.1: The Wolves of Mordor.** If you already have a confirmed initial setup or saved builds, click **Change Initial** after upgrading/reforging your Legendary Items to update character stats and saved-build comparisons.
 
@@ -29,7 +29,7 @@ The plugin proposes a build; you obtain and equip items in the game yourself. Th
 
 ## Installation
 
-1. Download **EquipmentPlugin-0.2.50.zip** using the link above or the **Assets** section of the latest version. Choose the archive named after the plugin.
+1. Download **EquipmentPlugin-0.2.52.zip** using the link above or the **Assets** section of the latest version. Choose the archive named after the plugin.
 2. Find `The Lord of the Rings Online` in your **Documents** folder. Create its `Plugins` folder if necessary.
 3. Extract the archive's `EquipmentPlugin` folder into `Plugins`.
 4. Check this path: `Documents\The Lord of the Rings Online\Plugins\EquipmentPlugin\EquipmentPlugin.plugin`. Avoid an extra nested `EquipmentPlugin` folder.
@@ -79,7 +79,7 @@ Selected **Effects** participate in final totals, targets and limits. An effect 
 - **Update Generation** on the right confirms only this proposal's virtues. With no proposal, select up to five virtues in the empty Generation set and confirm to create a manual proposal.
 - Confirm changed ranks with OK, then confirm the edited ranks/set with the matching mode button. Close and mode switching stay blocked until confirmation or reverting the checkmarks.
 - Virtue locks work in **both modes**. Locked virtues must stay in the next generated result; locking alone does not change the current saved proposal. **All ranks: 104** is Generation-only simulation; **Restore actual ranks** returns earned ranks.
-- **Generate** can run directly from a saved build. An applied new result shows **Saved builds / Initial** and leaves the saved copy available. **Save** creates a new copy, numbered1–10 by current list position; deleting a copy compacts automatic numbers.
+- **Generate** can run directly from a saved build. An applied new result shows **Saved Builds** and leaves the saved copy available. **Save** creates a new copy, numbered1–10 by current list position; deleting a copy compacts automatic numbers.
 - Targets, weights, sets, maximum essence level and the blacklist affect future searches; saved gear stays intact.
 - The lower **Restore Initial** button restores original gear, virtues and Initial checkmarks while keeping settings and saved copies. The dropdown lists saved builds only.
 - **Change Initial** works from saved builds: confirm changed worn gear to recalculate differences while retaining the proposed recipe. Original virtue/rank and character-level changes are reflected in comparisons. A same-name item upgraded to another Item Level must be corrected manually with **Edit equipped Item Level**, without relying on Change Initial; confirm its installed essences separately if it has sockets. Completing those equipped-item edits updates the original totals and comparison automatically. For legendary-item/tracery changes that only alter total stats, use Change Initial.
@@ -102,11 +102,11 @@ Unload the plugin or close the game before replacing files. Extract the new vers
 When asking for help, include the plugin version, character class and level, expected result and reproduction steps. Check screenshots and diagnostics for personal information before posting them. An item's **Unknown** source means its acquisition method is unconfirmed; it does not guarantee current server availability.
 
 
-If Change Initial offers **Review data**, confirm the actually worn Item Levels, installed essences and active virtues it asks about. Use **Keep confirmed data** only when those values did not change, for example after changing legendary traceries or buffs. Saved proposed items remain intact; comparisons use the newly confirmed original.
+If Change Initial offers **Confirmed All Gear**, confirm the actually worn Item Levels, installed essences and active virtues it asks about. Use **Confirmed Gear** only when those values did not change, for example after changing legendary traceries or buffs. Saved proposed items remain intact; comparisons use the newly confirmed original.
 
 ## Current version
 
-**0.2.50** · [Downloads and release notes](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)
+**0.2.52** · [Downloads and release notes](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)
 
 Archive SHA-256:
 
@@ -122,3 +122,5 @@ b0c7da3842463a2202eafcabd774f76b84c1d28fff85b9620fff0634905c1df1
 ## LOTROInterface
 
 [Equipment Plugin on LOTROInterface](https://www.lotrointerface.com/downloads/fileinfo.php?id=1332). The plugin page includes screenshots, a description and the player download. New uploads may await site moderation; GitHub provides the latest player build while approval is pending.
+
+**Reviewing changed equipment:** **Confirmed Gear** keeps the previous confirmations listed in the warning; **Confirmed All Gear** rechecks those entries too. Both choices still request confirmation for new or unconfirmed items. Completing Change Initial preserves your Saved Builds and updates their comparison with the new original.
