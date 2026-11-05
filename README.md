@@ -6,7 +6,7 @@ Equipment Plugin helps you choose equipment and essences for your selected stats
 
 **You can use the plugin on characters below level 160, but the accuracy of its data and build results at those levels is not guaranteed. Testing and support focus on level 160.**
 
-**[Download Equipment Plugin 0.2.45](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)**
+**[Download Equipment Plugin 0.2.49](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)**
 
 **Updated for Update 50.1: The Wolves of Mordor.** If you already have a confirmed initial setup or saved builds, click **Refresh** after upgrading/reforging your Legendary Items to update character stats and saved-build comparisons.
 
@@ -29,7 +29,7 @@ The plugin proposes a build; you obtain and equip items in the game yourself. Th
 
 ## Installation
 
-1. Download **EquipmentPlugin-0.2.45.zip** using the link above or the **Assets** section of the latest version. Choose the archive named after the plugin.
+1. Download **EquipmentPlugin-0.2.49.zip** using the link above or the **Assets** section of the latest version. Choose the archive named after the plugin.
 2. Find `The Lord of the Rings Online` in your **Documents** folder. Create its `Plugins` folder if necessary.
 3. Extract the archive's `EquipmentPlugin` folder into `Plugins`.
 4. Check this path: `Documents\The Lord of the Rings Online\Plugins\EquipmentPlugin\EquipmentPlugin.plugin`. Avoid an extra nested `EquipmentPlugin` folder.
@@ -60,9 +60,13 @@ If Documents has been moved to OneDrive or another location, use the Documents f
 | Armor Sets / Jewellery Sets | Require the selected set and piece count. Its Item Level is a common maximum; Part Levels adds a maximum per member. Eligible unblocked levels below both caps remain available. |
 | Temporary Blacklist | Exclude checked items and levels from subsequent searches. |
 
+Right-click any slot for **Blacklist Item Levels**, **Blacklist Gear** or **Blacklist Essence**. Essence groups show family names, Item Levels and Minimum Levels, with separate Essences, Necklace and Cloak tabs. Individual and group buttons add exclusions; added entries disappear from these lists. Restore them in **Generation Settings → Temporary Blacklist** to make them available again. Selected set levels are protected, and conflicting set counts show an explanation. PvP Necklace Essence of War is excluded from automatic selection.
+
 Start with the stats that really matter to your build. If no suitable improvement is found, review mandatory bounds, slot locks, set requirements and exclusions. The current proposal remains; the nearest checked values in the explanation are not applied automatically. The search does not guarantee that every possible combination has been checked.
 
 After a failed search, one last closest recipe is remembered only during this plugin session in the same profile. On the next Generate it is recalculated and checked against current rules, so relaxing a target can recover the previously reported combination. It is never applied automatically after failure; changes to availability or other constraints can make it invalid. The manuals explain Preparing, Main Gear, Refining and Additional Gear phases.
+
+At level 160, **Choose food** lists food names, Item Levels and modeled bonuses, including older meals. Your explicit choice remains selected until you change it.
 
 Selected **Effects** participate in final totals, targets and limits. An effect actually active on your character and an effect selected for the proposed calculation can require separate confirmation; follow the plugin's prompts.
 
@@ -70,15 +74,15 @@ Selected **Effects** participate in final totals, targets and limits. An effect 
 
 - **Left-click an item** for a manual replacement; **right-click** for item and essence actions. Manual item/essence edits update only the selected saved build.
 - **Generation History** shows the net difference from confirmed original equipment. Manual edits add to it; returning an original item removes its difference.
-- In **Generation Settings → Virtues**, choose **Initial** for the original set or **Generation** for the proposal. Five icons appear above the two mode buttons.
+- In **Generation Settings → Virtues**, choose **Initial** for the original set or **Generation** for the proposal. Five icons appear above the two mode buttons. Initial keeps actual earned ranks; Generation can simulate different ranks for that proposal or saved build without changing Initial.
 - **Initial Update** on the left confirms the common original set for saved builds in this profile, keeping the selected saved proposal open and recalculating its comparison.
 - **Update Generation** on the right confirms only this proposal's virtues. With no proposal, select up to five virtues in the empty Generation set and confirm to create a manual proposal.
-- Confirm changed active sets with the matching button. Close and mode switching stay blocked until confirmation or reverting the checkmarks.
-- Virtue locks work in **both modes**. Locked virtues must stay in the next generated result; locking alone does not change the current saved proposal. **All ranks: 100** is Generation-only simulation; **Restore actual ranks** returns earned ranks.
+- Confirm changed ranks with OK, then confirm the edited ranks/set with the matching mode button. Close and mode switching stay blocked until confirmation or reverting the checkmarks.
+- Virtue locks work in **both modes**. Locked virtues must stay in the next generated result; locking alone does not change the current saved proposal. **All ranks: 104** is Generation-only simulation; **Restore actual ranks** returns earned ranks.
 - **Generate** can run directly from a saved build. An applied new result shows **Saved builds / Initial** and leaves the saved copy available. **Save** creates a new copy, numbered1–10 by current list position; deleting a copy compacts automatic numbers.
 - Targets, weights, sets, maximum essence level and the blacklist affect future searches; saved gear stays intact.
 - The lower **Restore Initial** button restores original gear, virtues and Initial checkmarks while keeping settings and saved copies. The dropdown lists saved builds only.
-- **Refresh** works from saved builds: confirm changed worn gear to recalculate differences while retaining the proposed recipe. Original virtue/rank and character-level changes are reflected in comparisons. A same-name item upgraded to another Item Level must be corrected manually with **Edit equipped Item Level**, without relying on Refresh; confirm its installed essences separately if it has sockets. For legendary-item/tracery changes that only alter total stats, use Refresh.
+- **Refresh** works from saved builds: confirm changed worn gear to recalculate differences while retaining the proposed recipe. Original virtue/rank and character-level changes are reflected in comparisons. A same-name item upgraded to another Item Level must be corrected manually with **Edit equipped Item Level**, without relying on Refresh; confirm its installed essences separately if it has sockets. Completing those equipped-item edits updates the original totals and comparison automatically. For legendary-item/tracery changes that only alter total stats, use Refresh.
 
 From level 45, designated legendary slots are excluded from selection even if an ordinary item is temporarily worn there. Equip Main Hand before Generate and use Refresh when needed. See the manuals for class-specific weapon and item rules.
 
@@ -102,12 +106,12 @@ If Refresh offers **Review data**, confirm the actually worn Item Levels, instal
 
 ## Current version
 
-**0.2.45** · [Downloads and release notes](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)
+**0.2.49** · [Downloads and release notes](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)
 
 Archive SHA-256:
 
 ```text
-143c500d9fd5b72260d1128f740e05e04e4c89762035e838ed039e12d8fc8fc8
+97648d2c8d31a8d40948bbd60470bfd50beb506c308838c064507522651203cb
 ```
 
 
