@@ -6,9 +6,9 @@ Equipment Plugin helps you choose equipment and essences for your selected stats
 
 **You can use the plugin on characters below level 160, but the accuracy of its data and build results at those levels is not guaranteed. Testing and support focus on level 160.**
 
-**[Download Equipment Plugin 0.2.49](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)**
+**[Download Equipment Plugin 0.2.50](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)**
 
-**Updated for Update 50.1: The Wolves of Mordor.** If you already have a confirmed initial setup or saved builds, click **Refresh** after upgrading/reforging your Legendary Items to update character stats and saved-build comparisons.
+**Updated for Update 50.1: The Wolves of Mordor.** If you already have a confirmed initial setup or saved builds, click **Change Initial** after upgrading/reforging your Legendary Items to update character stats and saved-build comparisons.
 
 ## Features
 
@@ -29,7 +29,7 @@ The plugin proposes a build; you obtain and equip items in the game yourself. Th
 
 ## Installation
 
-1. Download **EquipmentPlugin-0.2.49.zip** using the link above or the **Assets** section of the latest version. Choose the archive named after the plugin.
+1. Download **EquipmentPlugin-0.2.50.zip** using the link above or the **Assets** section of the latest version. Choose the archive named after the plugin.
 2. Find `The Lord of the Rings Online` in your **Documents** folder. Create its `Plugins` folder if necessary.
 3. Extract the archive's `EquipmentPlugin` folder into `Plugins`.
 4. Check this path: `Documents\The Lord of the Rings Online\Plugins\EquipmentPlugin\EquipmentPlugin.plugin`. Avoid an extra nested `EquipmentPlugin` folder.
@@ -82,9 +82,9 @@ Selected **Effects** participate in final totals, targets and limits. An effect 
 - **Generate** can run directly from a saved build. An applied new result shows **Saved builds / Initial** and leaves the saved copy available. **Save** creates a new copy, numbered1–10 by current list position; deleting a copy compacts automatic numbers.
 - Targets, weights, sets, maximum essence level and the blacklist affect future searches; saved gear stays intact.
 - The lower **Restore Initial** button restores original gear, virtues and Initial checkmarks while keeping settings and saved copies. The dropdown lists saved builds only.
-- **Refresh** works from saved builds: confirm changed worn gear to recalculate differences while retaining the proposed recipe. Original virtue/rank and character-level changes are reflected in comparisons. A same-name item upgraded to another Item Level must be corrected manually with **Edit equipped Item Level**, without relying on Refresh; confirm its installed essences separately if it has sockets. Completing those equipped-item edits updates the original totals and comparison automatically. For legendary-item/tracery changes that only alter total stats, use Refresh.
+- **Change Initial** works from saved builds: confirm changed worn gear to recalculate differences while retaining the proposed recipe. Original virtue/rank and character-level changes are reflected in comparisons. A same-name item upgraded to another Item Level must be corrected manually with **Edit equipped Item Level**, without relying on Change Initial; confirm its installed essences separately if it has sockets. Completing those equipped-item edits updates the original totals and comparison automatically. For legendary-item/tracery changes that only alter total stats, use Change Initial.
 
-From level 45, designated legendary slots are excluded from selection even if an ordinary item is temporarily worn there. Equip Main Hand before Generate and use Refresh when needed. See the manuals for class-specific weapon and item rules.
+From level 45, designated legendary slots are excluded from selection even if an ordinary item is temporarily worn there. Equip Main Hand before Generate and use Change Initial when needed. See the manuals for class-specific weapon and item rules.
 
 ## Complete Russian and English manuals
 
@@ -102,16 +102,16 @@ Unload the plugin or close the game before replacing files. Extract the new vers
 When asking for help, include the plugin version, character class and level, expected result and reproduction steps. Check screenshots and diagnostics for personal information before posting them. An item's **Unknown** source means its acquisition method is unconfirmed; it does not guarantee current server availability.
 
 
-If Refresh offers **Review data**, confirm the actually worn Item Levels, installed essences and active virtues it asks about. Use **Keep confirmed data** only when those values did not change, for example after changing legendary traceries or buffs. Saved proposed items remain intact; comparisons use the newly confirmed original.
+If Change Initial offers **Review data**, confirm the actually worn Item Levels, installed essences and active virtues it asks about. Use **Keep confirmed data** only when those values did not change, for example after changing legendary traceries or buffs. Saved proposed items remain intact; comparisons use the newly confirmed original.
 
 ## Current version
 
-**0.2.49** · [Downloads and release notes](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)
+**0.2.50** · [Downloads and release notes](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)
 
 Archive SHA-256:
 
 ```text
-97648d2c8d31a8d40948bbd60470bfd50beb506c308838c064507522651203cb
+b0c7da3842463a2202eafcabd774f76b84c1d28fff85b9620fff0634905c1df1
 ```
 
 
