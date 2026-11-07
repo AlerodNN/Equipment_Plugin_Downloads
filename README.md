@@ -6,7 +6,7 @@ Equipment Plugin helps you choose equipment and essences for your selected stats
 
 **You can use the plugin on characters below level 160, but the accuracy of its data and build results at those levels is not guaranteed. Testing and support focus on level 160.**
 
-**[Download Equipment Plugin 0.2.60](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)**
+**[Download Equipment Plugin 0.2.77](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)**
 
 **Updated for Update 50.1: The Wolves of Mordor.** If you already have a confirmed initial setup or saved builds, click **Change Initial** after upgrading/reforging your Legendary Items to update character stats and saved-build comparisons.
 
@@ -29,7 +29,7 @@ The plugin proposes a build; you obtain and equip items in the game yourself. Th
 
 ## Installation
 
-1. Download **EquipmentPlugin-0.2.60.zip** using the link above or the **Assets** section of the latest version. Choose the archive named after the plugin.
+1. Download **EquipmentPlugin-0.2.77.zip** using the link above or the **Assets** section of the latest version. Choose the archive named after the plugin.
 2. Find `The Lord of the Rings Online` in your **Documents** folder. Create its `Plugins` folder if necessary.
 3. Extract the archive's `EquipmentPlugin` folder into `Plugins`.
 4. Check this path: `Documents\The Lord of the Rings Online\Plugins\EquipmentPlugin\EquipmentPlugin.plugin`. Avoid an extra nested `EquipmentPlugin` folder.
@@ -58,9 +58,9 @@ If Documents has been moved to OneDrive or another location, use the Documents f
 | Importance | A checked stat's contribution to the overall score. Higher weight does not promise that every stat increases together. |
 | Equipment-slot lock | Keeps that slot's item and essences during generation. |
 | Armor Sets / Jewellery Sets | Require the selected set and piece count. Its Item Level is a common maximum; Part Levels adds a maximum per member. Eligible unblocked levels below both caps remain available. |
-| Temporary Blacklist | Exclude checked items and levels from subsequent searches. |
+| Generation Blacklist | Exclude checked items and levels from subsequent searches. |
 
-Right-click any slot for **Blacklist Item Levels**, **Blacklist Gear** or **Blacklist Essence**. Essence groups show family names, Item Levels and Minimum Levels, with separate Essences, Necklace and Cloak tabs. Individual and group buttons add exclusions; added entries disappear from these lists. Restore them in **Generation Settings → Temporary Blacklist** to make them available again. Set exclusions are allowed while enough distinct compatible parts remain to meet the required count; further conflicting exclusions are blocked with an explanation. PvP Necklace Essence of War is excluded from automatic selection.
+Right-click any slot for **Blacklist Item Levels**, **Blacklist Gear** or **Blacklist Essence**. Essence groups show family names, Item Levels and Minimum Levels, with separate Essences, Necklace and Cloak tabs. Individual and group buttons add exclusions; added entries disappear from these lists. Restore them in **Generation Settings → Generation Blacklist** to make them available again. Set exclusions are allowed while enough distinct compatible parts remain to meet the required count; further conflicting exclusions are blocked with an explanation. PvP Necklace Essence of War is excluded from automatic selection.
 
 Start with the stats that really matter to your build. If no suitable improvement is found, review mandatory bounds, slot locks, set requirements and exclusions. The current proposal remains; the nearest checked values in the explanation are not applied automatically. The search does not guarantee that every possible combination has been checked.
 
@@ -106,12 +106,12 @@ If Change Initial offers **Confirmed All Gear**, confirm the actually worn Item 
 
 ## Current version
 
-**0.2.60** · [Downloads and release notes](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)
+**0.2.77** · [Downloads and release notes](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)
 
 Archive SHA-256:
 
 ```text
-68c1d719a71f87820ea5d27db2a7822bdb5a8a195314ece51a2d39918b247633
+191c79a29b33f63f65d92071c7d6e6f0bae89838ec83f2459b874482a6b1523f
 ```
 
 
@@ -126,6 +126,8 @@ Archive SHA-256:
 **Reviewing changed equipment:** **Confirmed Gear** keeps the previous confirmations listed in the warning; **Confirmed All Gear** rechecks those entries too. Both choices still request confirmation for new or unconfirmed items. Completing Change Initial preserves your Saved Builds and updates their comparison with the new original.
 
 
-Temporary Blacklist has separate **Gear** and **Essences** tabs. Groups are ordered by their highest excluded Item Level; expand a group to restore one entry or use Remove All. Up to ten compact rows fit before scrolling. Hover only a Gear icon for its item-stat tooltip. Maximum Essence Item Level has its own block.
+Generation Blacklist has separate **Gear** and **Essences** tabs. Groups are ordered by their highest excluded Item Level; expand a group to restore one entry or use Remove All. Up to ten compact rows fit before scrolling. Hover only a Gear icon for its item-stat tooltip. Maximum Essence Item Level has its own block.
 
 A completed **Change Initial** clears optional Effects in this profile. Select the food, scrolls and buffs you want calculated again; active bonuses are still normalized once. **Change Initial** is the middle-left button; **Restore Initial** is below it. When the profile matches the worn equipment, **Initial Update** reads actual character totals without adding an already present virtue gain again. For a known equipped item, clicking a level in **Edit equipped Item Level** applies it immediately and keeps compatible confirmed sockets. If the installed essences changed, confirm them separately. The final equipped-essence confirmation captures and saves original totals automatically.
+
+**Owned Items** lists observed gear from worn equipment, bags and server storage. In **All Items**, combine source, category and item-type filters. Choices persist across tabs and reloads. An exclusion affects new searches. The item remains visible in Owned Items.
