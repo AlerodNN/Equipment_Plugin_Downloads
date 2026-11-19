@@ -6,9 +6,9 @@ Equipment Plugin helps you choose equipment and essences for your selected stats
 
 **You can use the plugin on characters below level 160, but the accuracy of its data and build results at those levels is not guaranteed. Testing and support focus on level 160.**
 
-**[Download Equipment Plugin 0.2.77](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)**
+**[Download Equipment Plugin 0.2.78](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)**
 
-**Updated for Update 50.1: The Wolves of Mordor.** If you already have a confirmed initial setup or saved builds, click **Change Initial** after upgrading/reforging your Legendary Items to update character stats and saved-build comparisons.
+**Updated for Update 50.2: The Wolves of Mordor.** If you already have a confirmed initial setup or saved builds, click **Change Initial** after upgrading/reforging your Legendary Items to update character stats and saved-build comparisons.
 
 ## Features
 
@@ -29,7 +29,7 @@ The plugin proposes a build; you obtain and equip items in the game yourself. Th
 
 ## Installation
 
-1. Download **EquipmentPlugin-0.2.77.zip** using the link above or the **Assets** section of the latest version. Choose the archive named after the plugin.
+1. Download **EquipmentPlugin-0.2.78.zip** using the link above or the **Assets** section of the latest version. Choose the archive named after the plugin.
 2. Find `The Lord of the Rings Online` in your **Documents** folder. Create its `Plugins` folder if necessary.
 3. Extract the archive's `EquipmentPlugin` folder into `Plugins`.
 4. Check this path: `Documents\The Lord of the Rings Online\Plugins\EquipmentPlugin\EquipmentPlugin.plugin`. Avoid an extra nested `EquipmentPlugin` folder.
@@ -66,7 +66,7 @@ Start with the stats that really matter to your build. If no suitable improvemen
 
 After a failed search, one last closest recipe is remembered only during this plugin session in the same profile. On the next Generate it is recalculated and checked against current rules, so relaxing a target can recover the previously reported combination. It is never applied automatically after failure; changes to availability or other constraints can make it invalid. The manuals explain Preparing, Main Gear, Refining and Additional Gear phases.
 
-At level 160, **Choose food** lists food names, Item Levels and modeled bonuses, including older meals. Your explicit choice remains selected until you change it.
+At level 160, **Choose food** lists food names, Item Levels and modeled bonuses, including older meals. Splendid Mûrai Feast is the default. Choose the updated Vibrant Khemozêl Banquet manually if you want to use it. The plugin prompts once when it can link an active meal’s stat buff and Resistance buff. Your explicit choice remains selected until you change it.
 
 Selected **Effects** participate in final totals, targets and limits. An effect actually active on your character and an effect selected for the proposed calculation can require separate confirmation; follow the plugin's prompts.
 
@@ -106,12 +106,12 @@ If Change Initial offers **Confirmed All Gear**, confirm the actually worn Item 
 
 ## Current version
 
-**0.2.77** · [Downloads and release notes](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)
+**0.2.78** · [Downloads and release notes](https://github.com/AlerodNN/Equipment_Plugin_Downloads/releases)
 
 Archive SHA-256:
 
 ```text
-191c79a29b33f63f65d92071c7d6e6f0bae89838ec83f2459b874482a6b1523f
+288e9028c150397921600cd07d5b1d5450725399cee51b4451e9b5153fa84e59
 ```
 
 
